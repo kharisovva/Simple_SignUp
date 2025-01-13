@@ -89,6 +89,8 @@ AUTHENTICATION_BACKENDS = [
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
+SITE_ID = 1
+
 WSGI_APPLICATION = 'simple_signup.wsgi.application'
 
 
